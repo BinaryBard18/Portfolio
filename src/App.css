@@ -1,0 +1,419 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.ball--div{
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ball{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: black;
+  
+}
+nav{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainlogo{
+  width: 9em;
+  height:auto;
+  border-radius: 5em;
+  padding: 10px;
+  margin-left: 2em;
+}
+.mainlogo:hover{
+  transform:scale(1.06);
+  transition: 0.5s ease;
+}
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5em;
+  padding-right: 5vmin;
+}
+.links a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.8em;
+}
+#git{
+  font-size: 1.5em;
+}
+#lin{
+  font-size: 1.5em;
+}
+#git:hover {
+  transform: scale(1.1);
+  color: #7f3a79;
+  transition: 0.2s ease-in-out;
+}
+#lin:hover {
+  transform: scale(1.1);
+  color: #7f3a79;
+  transition: 0.2s ease-in-out;
+}
+.resume:hover {
+  color: #7f3a79;
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+.main-content{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+.main-image{
+  width: 20rem;
+  border-radius: 10em;
+  cursor: pointer;
+}
+.main-image:hover{
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
+.text1{
+  font-size: 3em;
+  color: whitesmoke;
+}
+.text2{
+  font-size: 1.8em;
+  color: grey;
+}
+.maincontent{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text1 span{
+  animation: color-change 20s infinite;
+}
+@keyframes color-change {
+  0% {
+    color: rgb(212, 0, 255);
+  }
+
+  20% {
+    color: rgb(179, 0, 215);
+  }
+
+  40% {
+    color: rgb(154, 0, 184);
+  }
+
+  60% {
+    color: rgb(126, 0, 152);
+  }
+
+  80% {
+    color: rgb(137, 0, 206);
+  }
+
+  100% {
+    color: rgb(111, 0, 133);
+  }
+}
+.prodown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pro {
+  color: whitesmoke;
+  font-size: 4.3vmin;
+}
+#down {
+  font-size: 5vmin;
+  color: white;
+  cursor: pointer;
+}
+#down:hover {
+  color: #7f3a79;
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+}
+.down1 {
+  margin-top: -6vmin;
+}
+.connect{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20vmin;
+}
+.connect-text{
+  color: whitesmoke;
+  font-size: 7vmin;
+}
+.connect-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10vmin;
+}
+.connect-links a{
+  color: white;
+  text-decoration: none;
+}
+.connect-links .resume{
+  font-size:1.8em ;
+}
+.connect-links #git{
+  font-size:2.5em ;
+}
+.connect-links #lin{
+  font-size:2.5em ;
+}
+#arrow{
+  color: whitesmoke;
+  font-size: 4vmin;
+}
+#arrow:hover{
+  color: #95238b;
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+}
+.pros{
+  margin-top: 8%;
+  margin-bottom: 8%;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+.img{
+  width: 45%;
+  height: auto;
+  border-radius: 3vmin;
+  box-shadow: 10px 10px 20px rgb(60, 58, 58);
+}
+.title-go{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5vmin;
+}
+.info{
+  color: white;
+  width: 60vmin;
+}
+.abt{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 3.5vmin;
+  color: grey;
+}
+.title{
+  font-size: 7vmin;
+}
+.view a{
+  color: white;
+  text-decoration: none;
+  font-size: 2.5vmin;
+  background-color: black;
+  padding: 10px;
+  border-radius: 3vmin;
+  border:0.5px white solid;
+}
+.view a:hover{
+  background-color: #76286f;
+  transition: 0.2s ease;
+  border:1px #76286f solid;
+}
+.lang-links{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  gap:1.5em;
+  margin-bottom: 2em;
+}
+.element{
+  list-style: none;
+  background-color: rgb(72, 73, 72);
+  padding: 10px 20px;
+  border-radius:20px;
+}
+.lang-used li {
+  list-style: none;
+}
+@media only screen and (max-width:1200px) {
+  .main-image{
+    width: 15rem;
+  }
+  .text1{
+    font-size: 2.3rem;
+  }
+  .text2{
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width:1000px) {
+  .main-image{
+    width: 13rem;
+  }
+  .text1{
+    font-size: 2.1rem;
+  }
+  .text2{
+    font-size: 1.2rem;
+  }
+  #arrow{
+    font-size: 3.5vmin;
+  }
+  .img{
+    width: 45%;
+    height: 40vmin;
+  }
+  .info{
+    width: 40vmin;
+  }
+  .abt{
+    font-size: 3.3vmin;
+  }
+  .title{
+    font-size: 6vmin;
+  }
+}
+@media only screen and (max-width:767px) {
+  .maincontent{
+    flex-direction: column-reverse;
+  }
+  .mainlogo{
+    width: 7rem;
+  }
+  #resume{
+    font-size: 5vmin;
+  }
+  #git{
+    font-size: 7vmin;
+  }
+  #lin{
+    font-size: 7vmin;
+  }
+  .main-image{
+    width: 14rem;
+  }
+  .text1{
+    font-size: 2rem;
+  }
+  .text2{
+    font-size: 1.3rem;
+  }
+  #arrow{
+    font-size: 3.5vmin;
+  }
+  .img{
+    width: 45%;
+    height: 40vmin;
+  }
+  .info{
+    width: 40vmin;
+  }
+  .abt{
+    font-size: 3vmin;
+  }
+  .title{
+    font-size: 4vmin;
+  }
+  .pros{
+    flex-direction: column;
+    align-items: center;
+  }
+  .img{
+    width: 65%;
+    height: 50vmin;
+  }
+  .info{
+    margin-bottom: 5vmin;
+    width: 60%;
+  }
+  .element{
+    font-size: 0.9em;
+  }
+}
+@media only screen and (max-width:630px) {
+  
+  .mainlogo{
+    width: 6rem;
+  }
+  #resume{
+    font-size: 4vmin;
+  }
+  #git{
+    font-size: 6vmin;
+  }
+  #lin{
+    font-size: 6vmin;
+  }
+  .main-image{
+    width: 12rem;
+  }
+  .text1{
+    font-size: 1.6rem;
+  }
+  .text2{
+    font-size: 1.1rem;
+  }
+  .img{
+    height: 40vmin;
+  }
+  .element{
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width:470px) {
+  .mainlogo{
+    padding: 0;
+    margin-left: 3vmin;
+    width: 5em;
+  }
+  .main-image{
+    width: 10rem;
+  }
+  .text1{
+    font-size: 1.2rem;
+  }
+  .text2{
+    font-size: 0.7rem;
+  }
+  .element{
+    font-size: 0.6em;
+  }
+}
+@media only screen and (max-width:470px){
+  .element{
+    font-size: 0.4rem;
+  }
+}
+::-webkit-scrollbar {
+  width: 5px; /* Set the width of the scrollbar */
+  background-color: #302e2e; /* Background color of the scrollbar track */
+}
+
+/* Scrollbar Thumb (Scroller) */
+::-webkit-scrollbar-thumb {
+  background-color: #94288b; /* Color of the scrollbar thumb (scroller) */
+  border-radius: 5px; /* Optional: Set border radius for a rounded thumb */
+}
+
+/* Optional: Hover styles for the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #893082; /* Change color on hover */
+}
