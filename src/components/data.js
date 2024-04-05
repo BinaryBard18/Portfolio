@@ -16,14 +16,14 @@ export default [
         title : "AYULYF",
         about : "A project dedicated to holistic wellness, personalized care, and community support.",
         langs : ["JS","CSS3","HTML5","Firebase"],
-        link : "https://add-to-cart-8e6a6d.netlify.app/",
+        link : "https://ayulyf.vercel.app/",
         code : "https://github.com/riteshy1802/AddToCart"
     },
     {
         image : "personalweb.png",
         title : "Portfolio",
         about : "A Portfolio Website to showcase Skills and Projects",
-        langs : ["React.js","HTML5","CSS3"],
+        langs : ["React.js","HTML5","CSS3","Framer-motion"],
         link : "",
         code : ""
     },
