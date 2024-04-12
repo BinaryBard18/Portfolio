@@ -16,14 +16,14 @@ export default [
         title : "AYULYF",
         about : "A project dedicated to holistic wellness, personalized care, and community support.",
         langs : ["JS","CSS3","HTML5","Firebase"],
-        link : "https://ayulyf.vercel.app/",
+        link : "https://add-to-cart-8e6a6d.netlify.app/",
         code : "https://github.com/riteshy1802/AddToCart"
     },
     {
         image : "personalweb.png",
         title : "Portfolio",
         about : "A Portfolio Website to showcase Skills and Projects",
-        langs : ["React.js","HTML5","CSS3","Framer-motion"],
+        langs : ["React.js","HTML5","CSS3"],
         link : "",
         code : ""
     },
@@ -44,11 +44,11 @@ export default [
         code : "https://github.com/riteshy1802/memeGenerator"
     },
     {
-        image : "chatNet.png",
-        title : "ChatNet (in progress)",
-        about : "Chat with yourDiscover ChatNet, your go-to platform for seamless communication.",
-        langs : ["JS","CSS3","HTML5","Firebase"],
-        link : "",
+        image : "chat.png",
+        title : "ChatNet",
+        about : "A Project to provide essential contact information and details about an individual, a business, or a company.",
+        langs : ["HTML5","CSS3","Javascript","Firebase"],
+        link : "https://chat-application-chi-gules.vercel.app/",
         code : ""
     },
     {
