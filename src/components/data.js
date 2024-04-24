@@ -24,8 +24,8 @@ export default [
         title : "Notey",
         about : "Unleash your potential, note by note. Start with ditching the paper and leveling up your notes!",
         langs : ["React.JS","Framer-motion","CSS3"],
-        link : "https://add-to-cart-8e6a6d.netlify.app/",
-        code : "https://github.com/riteshy1802/AddToCart"
+        link : "https://my-notes-app-plum.vercel.app/",
+        code : "https://github.com/riteshy1802/my-notes-app"
     },
     {
         image : "personalweb.png",
